@@ -8,9 +8,27 @@ Current skills:
 - `osgi-scr-migrator`: Migrates OSGi-based Java projects from deprecated Felix SCR annotations to official OSGi R6/R7 Component annotations, including Java source and Maven POM updates.
 - `sling-release`: Releases an Apache Sling module end-to-end using Maven and the `apache/sling-cli` Docker tool (staging, voting, and post-vote finalization).
 
-## Prerequisites
+## Installation
 
 First of all, install and configure a coding assistant that supports Agent Skills.
+
+### GitHub copilot
+
+```
+/plugin install apache/sling-agent-skills
+```
+
+### Other harnesses
+
+Using [npx skills](https://github.com/vercel-labs/skills):
+
+```bash
+    npx skills add apache/sling-agent-skills
+```
+
+Alternatively, clone the repository and copy the skill to a locations supported by your coding assistant.
+
+## Requirements
 
 ### Python and Java for OSGi SCR migration
 
@@ -53,19 +71,3 @@ The `sling-release` skill requires:
 Some parent pom updates require changes to the OSGi components descriptors. These can be validated using the [osgi-ds-metatype-diff](https://github.com/jsedding/osgi-ds-metatype-diff) tool. Since there is no release of this tool yet you will need to build it and install it to your local Maven repository. Building using `-DskipTests -DskipITs` is required for recent Java versions.
 
 This dependency is optional but recommended.
-
-## Installation
-
-Using the [GitHub CLI](https://github.com/cli/cli/):
-
-```bash
-    gh skill install apache/sling-whiteboard
-```
-
-Using [npx skills](https://github.com/vercel-labs/skills):
-
-```bash
-    npx skills add apache/sling-whiteboard
-```
-
-Alternatively, clone the repository and copy the skill to a locations supported by your coding assistant.
