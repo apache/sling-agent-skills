@@ -2,6 +2,10 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "apache-sling-agent-skills",
   "description": "Agent Skills for Apache Sling developers and users.",
+  "author": {
+    "name": "Apache Sling",
+    "url": "https://sling.apache.org/"
+  },
   "repository": "https://github.com/apache/sling-agent-skills",
   "license": "Apache-2.0",
   "keywords": [

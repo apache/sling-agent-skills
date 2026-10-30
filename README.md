@@ -18,6 +18,20 @@ First of all, install and configure a coding assistant that supports Agent Skill
 /plugin install apache/sling-agent-skills
 ```
 
+### Claude Code
+
+```
+/plugin marketplace add apache/sling-agent-skills
+/plugin install apache-sling-agent-skills@apache-sling-agent-skills-marketplace
+```
+
+### Codex
+
+```
+codex plugin marketplace add apache/sling-agent-skills
+codex plugin add apache-sling-agent-skills@apache-sling-agent-skills-marketplace
+```
+
 ### Other harnesses
 
 Using [npx skills](https://github.com/vercel-labs/skills):

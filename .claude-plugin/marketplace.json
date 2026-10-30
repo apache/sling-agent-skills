@@ -1,0 +1,16 @@
+{
+  "name": "apache-sling-agent-skills-marketplace",
+  "description": "Plugin marketplace for Apache Sling developers and users.",
+  "owner": {
+    "name": "Apache Sling",
+    "url": "https://sling.apache.org/"
+  },
+  "plugins": [
+    {
+      "name": "apache-sling-agent-skills",
+      "source": "./",
+      "description": "Agent Skills for Apache Sling developers and users.",
+      "category": "Development"
+    }
+  ]
+}
