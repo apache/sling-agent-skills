@@ -15,7 +15,8 @@ First of all, install and configure a coding assistant that supports Agent Skill
 ### GitHub copilot
 
 ```
-/plugin install apache/sling-agent-skills
+/plugin marketplace add apache/sling-agent-skills
+/plugin install apache-sling-agent-skills@apache-sling-agent-skills-marketplace
 ```
 
 ### Claude Code
